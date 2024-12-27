@@ -11,3 +11,10 @@ def test_project():
         str: 'Test success' message indicating successful test execution
     """
     return "Test success"
+
+@app.route("/weather")
+def get_weather():
+    return "Friday, Sunny, 5 Celsius"
+
+
+primary_key = "s@3saa!"
