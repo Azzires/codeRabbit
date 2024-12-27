@@ -15,3 +15,6 @@ def test_project():
 @app.route("/weather")
 def get_weather():
     return "Friday, Sunny, 5 Celsius"
+
+
+primary_key = "s@3saa!"
